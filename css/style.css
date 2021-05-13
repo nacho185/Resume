@@ -249,7 +249,22 @@ section:last-child {
   font-style: italic;
   margin-bottom: 3px;
 }
-
+.profile-word-1 {
+  display: inline-block;
+  transform: rotate(-6deg);
+  font-weight: 500;
+}
+.profile-word-2 {
+  display: inline-block;
+  transform: rotate(6deg) translateX(-10px) translateY(1px);
+  font-weight: 500;
+}
+.profile-letter-1 {
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+}
+.profile-letter-2 {
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+}
 .keySkills {
   list-style-type: none;
   -moz-column-count: 3;
