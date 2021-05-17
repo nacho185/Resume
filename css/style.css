@@ -368,7 +368,12 @@ section:last-child {
 }
 
 /*card*/
-
+.tech-used {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
 .project-card:hover,
 .project-card:focus-within {
   transform: scale(1.05);
