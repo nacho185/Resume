@@ -400,9 +400,23 @@ section:last-child {
 }
 .project-header {
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.project-header:nth-child(2){
+  margin-right: 10px;
+}
+.project-header a{
+  padding: 8px;
+  border-radius: 20px;
+  margin-left: 10px;
+  
 }
 .project-header a:hover {
-  border-bottom: 2px solid #428bca;
+  background-color: #444;
+  color: #fff;
+  
 }
 .project-bullet-points {
   margin-left: 20px;
