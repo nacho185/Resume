@@ -392,7 +392,7 @@ section:last-child {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin: 60px 0 40px 0;
+  margin: 40px 0 40px 0;
 }
 .project-header a {
   text-decoration: none;
@@ -402,21 +402,18 @@ section:last-child {
   margin-bottom: 10px;
   display: flex;
   flex-direction: row;
-  
 }
-.project-header:nth-child(2){
+.project-header:nth-child(2) {
   margin-right: 10px;
 }
-.project-header a{
+.project-header a {
   padding: 8px;
   border-radius: 20px;
   margin-left: 10px;
-  
 }
 .project-header a:hover {
   background-color: #444;
   color: #fff;
-  
 }
 .project-bullet-points {
   margin-left: 20px;
