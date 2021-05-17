@@ -7,6 +7,25 @@
 }
 
 /*end variables*/
+/*scroll-bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+/*end scroll-bar*/
+
 /*general*/
 .fa-html5 {
   color: rgb(255, 102, 0);
