@@ -3,7 +3,7 @@
   --clr-neutral-900: hsl(207, 19%, 9%);
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-400: hsl(142, 90%, 61%);
-  --clr-neutral-200: #0052af;
+  --clr-neutral-200: #000;
 }
 /*#44b687 <-- this is the old color of my resume incase you want it back*/ 
 /*end variables*/
@@ -399,7 +399,9 @@ section:last-child {
 }
 .project-header a {
   text-decoration: none;
-  color: #428bca;
+  /*color: #428bca;*/
+  color:#555;
+  
 }
 .project-header {
   margin-bottom: 10px;
